@@ -13,6 +13,9 @@ box-sizing: border-box;
 .kletka1{
   background-color: grey;
 }
+.kletka2{
+	box-sizing:border-box;
+}
 .number{
   float:left;
 }
@@ -21,8 +24,8 @@ box-sizing: border-box;
 }
 .col{
   float:left;
-  border:1px solid grey;
 }
+
 .divClear{
   clear: both;
 }
@@ -31,4 +34,13 @@ box-sizing: border-box;
 }
 img{
   width: 50px;
+}
+.top-border{
+	border-top:1px solid grey;
+}
+.two{
+	border-right:1px solid grey;	
+}
+.bot-border{
+		border-bottom:1px solid grey;
 }
